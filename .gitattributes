@@ -6,3 +6,5 @@
 .git				export-ignore
 .vscode				export-ignore
 graphics/source/	export-ignore
+meta/				export-ignore
+releases/			export-ignore
