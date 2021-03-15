@@ -1,0 +1,8 @@
+# Common settings that generally should always be used with your language specific settings
+# Exclude files from exporting
+
+.gitattributes		export-ignore
+.gitignore			export-ignore
+.git				export-ignore
+.vscode				export-ignore
+graphics/source/	export-ignore

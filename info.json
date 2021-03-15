@@ -1,0 +1,12 @@
+{
+	"name": "ab-searaph",
+	"version": "0.0.1",
+	"title": "AB-Searaph",
+	"description": "Custom AngelBob+Seablock modpack for me and my friends.",
+	"author": "Seraphendipity",
+	"factorio_version": "1.1",
+	"dependencies": [
+		"angelsbioprocessing",
+		"SeaBlock"
+	]
+}
