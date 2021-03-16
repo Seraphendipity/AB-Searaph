@@ -37,23 +37,6 @@ if settings.startup["ab-searaph-replace-coal"].value then
 		end
 	end
 
-
-	if ingredients[i][1] == "green-wire" or
-	ingredients[i][1] == "red-wire" then
-if is_wire_surrogate then
-	ingredients[i][1] = "fake-" .. ingredients[i][1]
-else
-	table.remove(ingredients, i)
-end
-elseif ingredients[i].name and (ingredients[i].name == "green-wire" or ingredients[i].name == "red-wire") then
-if is_wire_surrogate then
-	ingredients[i].name = "fake-" .. ingredients[i].name
-else
-	table.remove(ingredients, i)
-end
--- and so on...
-
-
 	-- Searches all recipes and calls replaceCoal() on them.
 	for _, recipe in pairs(data.raw["recipe"]) do
 		if recipe.ingredients then
