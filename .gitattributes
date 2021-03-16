@@ -10,4 +10,5 @@
 # releases/			export-ignore
 
 *					export-ignore
-main/*				-export-ignore
+main/				-export-ignore
+main/**				-export-ignore
